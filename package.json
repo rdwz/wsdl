@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "export NODE_ENV=Development && npm start"
+    "dev": "export NODE_ENV=Development && pnpm start",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --cache --write ."
   },
   "dependencies": {
     "archiver": "^5.3.1",
@@ -17,5 +19,8 @@
     "morgan": "~1.10.0",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
   }
 }
