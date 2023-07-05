@@ -21,6 +21,6 @@
     "socket.io-client": "^4.6.1"
   },
   "devDependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.0.0"
   }
 }
